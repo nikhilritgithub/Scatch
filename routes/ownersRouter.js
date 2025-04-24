@@ -14,6 +14,10 @@ router.post("/create",function(req, res){
     res.send("Fine hai");
 })
 
+router.post("/login", function(req, res){
+    res.send("loggedIn");
+})
+
 router.get("/", async function(req, res){
     res.send("new-cookie");
 })
