@@ -8,5 +8,4 @@ router.get("/", function(req, res){
 router.get("/login",  function(req, res){
     res.send("login.ejs");
 })
-
 module.exports = router;
