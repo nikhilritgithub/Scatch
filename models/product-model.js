@@ -16,4 +16,5 @@ const productSchema = mongoose.Schema ({
     border : Number
 });
 
+
 module.exports = mongoose.model("product", productSchema);
