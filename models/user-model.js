@@ -13,6 +13,7 @@ const userSchema = mongoose.Schema ({
         type : Array,
         default : []
     },
+    
     Add : String,
     contact : Number,
     picture : String,
