@@ -6,7 +6,8 @@ const productSchema = mongoose.Schema ({
     Id : NUmber,
     Quantity : Number,
     price : Number,
-    discount : {
+    discount : 
+    {
         type : Number,
         default : 0
     },
