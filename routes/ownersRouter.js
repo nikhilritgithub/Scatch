@@ -21,6 +21,4 @@ router.get("/", async function(req, res){
     res.send("new-cookie");
 })
 
-
-
 module.exports = router;
