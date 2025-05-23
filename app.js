@@ -9,7 +9,6 @@ const usersRouter = require("./routes/usersRouter");
 const db = require("./config/mongoose-connection");
 
 
-
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(cookieParser());
