@@ -21,9 +21,4 @@ app.use("/new-route", function(req, res){
   res.send(Index);
 })
 
-
-app.get("new-route", function(req, res){
-  res.send(Index);
-})
-
 app.listen(3000);
