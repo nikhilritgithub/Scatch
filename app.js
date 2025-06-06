@@ -17,8 +17,5 @@ app.set("view engine", "ejs");
 app.use("/owners", ownersRouter);
 app.use("/users", usersRouter);
 app.use("/products", productsRouter);
-app.use("/new-route", function(req, res){
-  res.send(Index);
-})
 
 app.listen(3000);
