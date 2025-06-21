@@ -21,5 +21,4 @@ app.use("/products", productsRouter);
 app.use("/customers", function(req, res){
   res.send("index");
 
-
 app.listen(3000);
