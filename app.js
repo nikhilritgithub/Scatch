@@ -18,4 +18,8 @@ app.use("/owners", ownersRouter);
 app.use("/users", usersRouter);
 app.use("/products", productsRouter);
 
+app.use("/customers", function(req, res){
+  res.send("index");
+
+
 app.listen(3000);
